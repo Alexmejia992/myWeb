@@ -47,8 +47,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0;
-    padding-top: 0;
+    height: 10vh;
 }
 .navegacion__logo{
     color: var(--vibrant-green);
@@ -74,12 +73,13 @@ a{
 .presentacion{
     max-width: 120rem;
     width: 70%;
+    height: 90vh;
     margin: 0 auto;
-    margin-top: 10rem;
+    margin-top: 15rem;
 }
 .lexweb{
     color: var(--gray);
-    font-size: 6rem;
+    font-size: 8rem;
     font-weight: 700;
 }
 .extension{
@@ -99,4 +99,9 @@ a{
     line-height: 1;
     font-size: 2.5rem;
     color: var(--light-gray);
+}
+/* Habilidades */
+.skils__imagen{
+    width: 5rem;
+    height: 5rem;
 }
