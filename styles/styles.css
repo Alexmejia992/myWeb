@@ -1,6 +1,6 @@
 :root{
     --background-color: rgba(14, 18, 18, 1);
-    --vibrant-green: rgb(0, 199, 199);
+    --vibrant-green: rgb(41, 200, 139);
     --gray: rgba(219,219,219);
     --light-gray: #808080;
 
@@ -100,8 +100,18 @@ a{
     font-size: 2.5rem;
     color: var(--light-gray);
 }
-/* Habilidades */
+/* Habilidades o tecnologias */
 .skils__imagen{
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
+} 
+.tecnologias{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#tecnologias__lista{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    
 }
